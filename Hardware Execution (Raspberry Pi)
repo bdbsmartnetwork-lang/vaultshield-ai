@@ -1,0 +1,3 @@
+cd hardware
+pip install -r ../requirements.txt
+python vault_controller.py
