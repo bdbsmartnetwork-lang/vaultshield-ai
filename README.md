@@ -153,5 +153,3 @@ CREATE TABLE IF NOT EXISTS `vaultshield.sales_ledger` (
 📜 License
 Distributed under the MIT License. See LICENSE for more information.
 
-<FollowUp label="Want me to write the complete Dockerfile for deploying the backend to Cloud Run?" query="Write the complete Dockerfile and requirements.txt for deploying the VaultShield AI backend to Google Cloud Run."/>
-
