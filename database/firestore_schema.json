@@ -1,0 +1,41 @@
+{
+  "collections": {
+    "vaults": {
+      "doc_id": "VAULT_KADUNA_01",
+      "fields": {
+        "dealer_id": "DEALER_ALHAJI_01",
+        "location": "Kaduna Central Market",
+        "status": "ONLINE",
+        "active_slot_count": 8,
+        "last_heartbeat": "2026-08-16T22:00:00Z"
+      }
+    },
+    "sales_ledger": {
+      "doc_id": "AUTO_GENERATED_ID",
+      "fields": {
+        "transaction_id": "TXN_9281039",
+        "vault_id": "VAULT_KADUNA_01",
+        "agent_id": "AGENT_KANU_04",
+        "otp_used": "482910",
+        "extracted_device": {
+          "manufacturer": "Tecno",
+          "model": "Spark 20 Pro",
+          "storage_capacity": "256GB",
+          "imei_number": "358912104928104",
+          "slot_occupied": false
+        },
+        "timestamp": "2026-08-16T22:04:56Z",
+        "status": "DISPATCH_APPROVED"
+      }
+    },
+    "security_alerts": {
+      "doc_id": "AUTO_GENERATED_ID",
+      "fields": {
+        "vault_id": "VAULT_KADUNA_01",
+        "type": "INVALID_OTP_ATTEMPT",
+        "attempted_otp": "999999",
+        "timestamp": "2026-08-16T22:01:12Z"
+      }
+    }
+  }
+}
